@@ -1,0 +1,130 @@
+ @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,200&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,200&family=Varela+Round&display=swap');
+
+ body {
+    background-color: rgb(200, 184, 172);
+ }
+
+ * {
+    margin: 0;
+    padding: 0;
+
+ }
+
+ nav {
+    font-family: 'Ubantu', sand-serif;
+ }
+
+ nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+    color: antiquewhite;
+    align-items: center;
+
+
+ }
+
+ nav ul li {
+    padding: 10px;
+    margin: 5px;
+ }
+
+ .brand img {
+    width: 40px;
+    padding: 0 5px;
+
+ }
+
+ .brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+
+ }
+
+ .container {
+    min-height: 72vh;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 30px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 10px;
+
+
+ }
+
+ .bottom {
+    position: sticky;
+    height: 100px;
+    background-color: rgb(4, 3, 3);
+    color: rgb(234, 234, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+ }
+
+ .icons {
+    margin-top: 10px;
+
+
+ }
+
+  
+
+ #myprogressbar {
+    width:  75%;
+    cursor: pointer;
+
+ }
+
+ .songitem {
+    display: flex;
+    height: 50px;
+ 
+    background-color: rgb(235, 238, 241);
+    color: black;
+    margin: 10px 0 0 5px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+ }
+
+ .songitem img {
+    width: 50px;
+
+    margin: 0 5px 0;
+    border-radius: 50px;
+ }
+
+ .timestamp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+ }
+ .timestamp i{
+   cursor: pointer;
+ }
+ .songitemcontainer
+ {
+   margin: 24px;
+ }
+ .songinfo
+ {  position: absolute;
+   left: 12vw;
+   font-family: 'Varela Round', sans-serif;
+   }
+   .songinfo img
+ {    opacity: 0;
+   transition : opacity 0.8s ease-in;
+
+   }
